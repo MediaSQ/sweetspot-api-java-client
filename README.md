@@ -7,5 +7,6 @@ This is the very first version of the Java Client for the Sweetspot Reporting AP
 ## TODO
 
 * Add unit tests
+* Add Maven support
 * Support for additional methods
 * Improve the information presented by the Data Types
