@@ -39,4 +39,10 @@ public class AnalystOpinion {
   public void setOpinion(String opinion) {
     this.opinion = opinion;
   }
+
+  @Override
+  public String toString() {
+    return "AnalystOpinion [userName=" + userName + ", userEmail=" + userEmail
+        + ", opinion=" + opinion + "]";
+  }
 }

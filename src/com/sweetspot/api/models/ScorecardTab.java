@@ -134,5 +134,11 @@ public class ScorecardTab {
 
   public void setScorecardTabElements(Collection<ScorecardTabElement> scorecardTabElements) {
     this.scorecardTabElements = scorecardTabElements;
-  }  
+  }
+
+  @Override
+  public String toString() {
+    return "ScorecardTab [clientId=" + clientId + ", position=" + position
+        + ", name=" + name + ", id=" + id + "]";
+  }
 }

@@ -69,4 +69,9 @@ public class Scorecard {
   public void setScorecardTabs(Collection<ScorecardTab> scorecardTabs) {
     this.scorecardTabs = scorecardTabs;
   }
+
+  @Override
+  public String toString() {
+    return "Scorecard [name=" + name + ", path=" + path + ", id=" + id + "]";
+  }
 }

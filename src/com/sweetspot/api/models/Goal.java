@@ -164,4 +164,17 @@ public class Goal {
   public void setGoalType(String goalType) {
     this.goalType = goalType;
   }
+
+  @Override
+  public String toString() {
+    return "Goal [prettyGoalProgress=" + prettyGoalProgress
+        + ", scorecardItemId=" + scorecardItemId + ", type=" + type
+        + ", completedDate=" + completedDate + ", startDate=" + startDate
+        + ", value=" + value + ", goalEnabled=" + goalEnabled + ", endDate="
+        + endDate + ", goalFailed=" + goalFailed + ", completionPercentaje="
+        + completionPercentaje + ", goalShortDescription="
+        + goalShortDescription + ", recurringGoal=" + recurringGoal
+        + ", goalStarted=" + goalStarted + ", goalCompleted=" + goalCompleted
+        + ", goalType=" + goalType + "]";
+  }
 }

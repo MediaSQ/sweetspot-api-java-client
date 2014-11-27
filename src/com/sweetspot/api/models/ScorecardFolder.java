@@ -74,4 +74,10 @@ public class ScorecardFolder {
   public void setChildren(Collection<ScorecardFolder> children) {
     this.children = children;
   }
+
+  @Override
+  public String toString() {
+    return "ScorecardFolder [scorecardFolderPath=" + scorecardFolderPath
+        + ", name=" + name + ", position=" + position + ", id=" + id + "]";
+  }
 }

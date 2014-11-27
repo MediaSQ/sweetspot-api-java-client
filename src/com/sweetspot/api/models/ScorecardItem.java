@@ -373,4 +373,13 @@ public class ScorecardItem {
   public void setTrend(float[] trend) {
     this.trend = trend;
   }
+
+  @Override
+  public String toString() {
+    return "ScorecardItem [logoUrl=" + logoUrl + ", startDate=" + startDate
+        + ", arrow=" + arrow + ", endDate=" + endDate + ", kpi=" + kpi
+        + ", units=" + units + ", panelDuration=" + panelDuration
+        + ", position=" + position + ", scorecardPanelId=" + scorecardPanelId
+        + ", name=" + name + ", id=" + id + ", path=" + path + "]";
+  }
 }
